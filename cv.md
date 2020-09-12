@@ -5,6 +5,7 @@
 * *Discord*: Baimenovbn#5546
 * *Telegram*: [Baimenovbn](https://t.me/Baimenovbn)
 * *LinkedIn*: [Bakhtiyar-Baimenov](https://www.linkedin.com/in/bakhtiyar-baimenov-106938192/)
+* Phone number: +7708-532-91-73;
 
 ## Summary:
 I want to become the best of myself in CS field. It was just something in this problem solving, that caught my attention immediately.
