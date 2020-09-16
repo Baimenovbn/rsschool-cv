@@ -1,1 +1,1 @@
-https://Baimenovbn.github.io/rsschool-cv/cv
+https://baimenovbn.github.io/rsschool-cv/
