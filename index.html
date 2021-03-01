@@ -9,32 +9,36 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <img src="./assets/images/my-pic.jpg" alt="Profile picture" class="my-pic">
+      <div class="my-pic-wrapper">
+        <img 
+          src="./assets/images/my-pic.jpg" 
+          alt="Profile picture" 
+          class="my-pic"
+        >
+      </div>
       <article class="info">
         <h1>Bakhtiyar Baimenov</h1>
-        <section class="contact-list">
+        <ul>
+          <li>Inspired developer</li>
+          <li>Aggressive reader</li>
+          <li>Good swimmer</li>
+          <li>Funny talker</li>
+        </ul>
+      </article>
+    </header>
+    <main class="main">
+      <div class="skills">
+        <section class="english">
+          <h4>English:</h4>
           <ul>
-            <li>Mail to: <a href="mailto:baibn@mail.ru">baibn@mail.ru</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/bakhtiyar-baimenov-106938192/">Bakhtiyar-Baimenov</a></li>
-            <li>Telegram: <a href="https://t.me/Baimenovbn">@Baimenovbn</a></li>
-            <li>Discord: <i>Baimenovbn#5546</i></li>
-            <li>Phone number: <a href="tel:+7708-532-91-73">(+7)708-532-91-73</a></li>
+            <li>Level: B2</li>
+            <li>Consume 70% of information in English</li>
+            <li>Read books in original language</li>
           </ul>
         </section>
-      </article>
-      <section class="english">
-        <ul><h4>English:</h4>
-          <li>Level: B2</li>
-          <li>Consume 70% of information in English</li>
-          <li>Read books in original language</li>
-        </ul>
-      </section>
-    </header>
-
-    <section class="skills">
-      <section class="hard-skills">
-        <div class="columns">
-          <ul><h4>Hard-skills:</h4>
+        <section>
+          <h4>Hard-skills:</h4>
+          <ul>
             <li>Python</li>
             <li>HTML/CSS</li>
             <li>JavaScript</li>
@@ -46,42 +50,56 @@
               </ul>
             </li>
           </ul>
-          <ul><h4>Basic knowledge:</h4>
+        </section>
+        <section>
+          <h4>Basic knowledge:</h4>
+          <ul>
             <li>Relational DB(Oracle, PL/SQL)</li>
             <li>GIT</li>
             <li>Docker</li>
             <li>Java</li>
           </ul>
-        </div>
-      </section>
-      <section class="projects">
-        <h4>Projects:</h4>
+        </section>
+      </div>
+      <div class="experience-info">
+        <section class="projects">
+          <h4>Projects:</h4>
+          <p>
+            I thinks it's better to leave my 
+            <a href="https://github.com/Baimenovbn">GitHub link</a>
+          </p>
+        </section>
+        <section class="experience">
+          <h4>Experience:</h4>
+          <ul>
+            <li>Only projects that I mentioned before</li>
+            <li><a href="https://www.coursera.org/learn/python-osnovy-programmirovaniya/home/welcome">Basics of Python on coursera</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="my-story">
         <p>
-          I thinks it's better to leave my 
-          <a href="https://github.com/Baimenovbn">GitHub link</a>
+          I want to become the best of myself in CS field. It was just something in this problem solving, that caught my attention immediately.
         </p>
-      </section>
-      <section class="experience">
-        <h4>Experience</h4>
-        <ul>
-          <li>Only projects that I mentioned before</li>
-          <li><a href="https://www.coursera.org/learn/python-osnovy-programmirovaniya/home/welcome">Basics of Python on coursera</a></li>
-        </ul>
-      </section>
-    </section>
-
-    <section class="my-story">
-      <p>
-        I want to become the best of myself in CS field. It was just something in this problem solving, that caught my attention immediately.
-      </p>
-      <p>
-        From very first classes of math (where you are to **solve** problems) I was font of it. Back then I had no idea who programmers actually were, having idea that they are guys in glasses with thick lenses, greasy hair. Consequently, I got into more of a practical field (Power Engineering), after a while something have happened and i just got sick of my sphere of job. At the time I was talking to my friend, who were in CS. Don't get me wrong, this hasn't happened quickly, I had this thought on my mind for quite a while, but eventually I switched into programming. That was my best decision.
-      </p>
-      <p>
-        As I mentioned earlier there's something cool in solving problems using logic, math, computers. Since I've made up my mind, I have been learning constantly and I can tell that I know much for someone who got into the field with <bold>ZERO</bold> knowledge.
-      </p>
-      <p>I want to become professional!</p>
-    </section>
+        <p>
+          From very first classes of math (where you are to <em>solve</em> problems) I was fond of it. Back then I had no idea who programmers actually were, having idea that they are guys in glasses with thick lenses, greasy hair. Consequently, I got into more of a practical field (Power Engineering), after a while something have happened and I just got sick of my job. At the time I was talking to my friend, who were in CS and what he told me caught my attention. I've had idea of switching to developer position for quite a while. It hasn't happened quickly, but eventually I switched into programming. 
+          <strong>That was my best decision.</strong>
+        </p>
+        <p>
+          As I mentioned earlier there's something cool in solving problems using logic, math, computers. Since I've made up my mind, I have been learning constantly and I can tell that I know much for someone who got into the field with <b>ZERO</b> knowledge.
+        </p>
+        <p>I want to become professional!</p>
+      </div>
+    </main>
+    <footer class="footer">
+      <ul class="contacts">
+        <li>Mail to: <a href="mailto:baibn@mail.ru">baibn@mail.ru</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/bakhtiyar-baimenov-106938192/">Bakhtiyar-Baimenov</a></li>
+        <li>Telegram: <a href="https://t.me/Baimenovbn">@Baimenovbn</a></li>
+        <li>Discord: <i>Baimenovbn#5546</i></li>
+        <li>Phone number: <a href="tel:+7708-532-91-73">(+7)708-532-91-73</a></li>
+      </ul>
+    </footer>
   </div>
 </body>
 </html>
